@@ -4,3 +4,21 @@
   box-sizing: border-box;
   font-family: cursive;
 }
+
+body {
+  height: 100vh;
+}
+
+#root,
+.container {
+  height: 100%;
+}
+
+.card {
+  width: 50%;
+  height: 50%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
